@@ -1,0 +1,89 @@
+.title{
+  width: 100px;
+  margin-left: 50px;
+}
+
+.container{
+  margin-top: 50px;
+  color: #505e6c;
+  box-shadow: solid 5px;
+}
+
+@media (max-width:800px) {
+  .container {
+    padding:40px;
+  }
+}
+
+/*.container  h2 {*/
+/*    font-size:35px;*/
+/*    line-height:1.5;*/
+/*    margin-bottom:30px;*/
+/*    text-align: left;*/
+/*  }*/
+
+.profile_box .img{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 6px solid #e1e1e1;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+.profile_box{
+  text-align:center;
+  padding: 50px;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.profile_box1{
+  text-align:center;
+  padding: 50px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+@media (max-width:450px) {
+  .profile_box1 {
+    font-size: 12px;
+  }
+
+  .btn{
+    margin-top: 10px;
+    padding: 5px;
+    width: 75px;
+    font-size: 12px;
+  }
+
+}
+
+.name{
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.desc{
+  text-align: left;
+  padding:20px;
+
+}
+
+.line{
+  padding: 15px;
+  border-bottom: 2px solid #a1b0be;
+}
+
+.end{
+  border-bottom: 0px;
+}
+
+.btn-outline-danger{
+  border: 3px solid #dc3545;
+  font-weight: 500;;
+}

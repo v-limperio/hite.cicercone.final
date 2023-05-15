@@ -1,0 +1,39 @@
+.title{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.container{
+    margin-top: 80px;
+    color: #505e6c;
+    box-shadow: solid 5px;
+}
+
+@media (max-width:800px) {
+    .container form {
+      padding:40px;
+    }
+  }
+
+.container form{
+    border:solid 2px white;
+    display:block;
+    margin:5px auto;
+    max-width: 400px;
+    background-color:#ffffff;
+    padding:40px 60px;
+    color:#505e6c;
+}
+
+.container form h2 {
+    font-size:28px;
+    line-height:1.5;
+    margin-bottom:30px;
+    text-align: center;
+  }
+
+.container form h3 {
+    font-size: 15px;
+    line-height:1.5;
+    margin-bottom:30px;
+}

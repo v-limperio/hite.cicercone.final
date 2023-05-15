@@ -1,0 +1,103 @@
+.none{
+    text-decoration: none;
+    color:white;
+}
+
+.title{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.row{
+    margin:0;
+}
+.containButton{
+    height: 8rem;
+    position:relative;
+    font-size: 24px;
+    font-weight: 500;
+    color:white;
+    font-family:monospace;
+    text-align: center;
+}
+
+
+.buttonNew{
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: #158CF3;
+    align-content: center;
+    transition: all 0.7s;
+    
+}
+
+.myActivity{
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: #F37C15;
+    align-content: center;
+    transition: all 0.7s;
+}
+
+#imgNew{
+    background-image: url(../img/map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.7s;
+}
+
+#imgFeed{
+    background-image: url(../img/feedback.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.7s;
+}
+
+#imgActivity{
+    background-image: url(../img/myactivity.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.7s;
+}
+
+#imgBook{
+    background-image: url(../img/book.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.7s;
+}
+
+.buttonNew:hover {
+    background-color: #106FC1;
+    font-size: 26px;
+}
+.buttonNew:hover #imgNew{
+    background-image: url(../img/marker.png);
+}
+
+.myActivity:hover{
+    background-color: #C16210;
+    font-size: 26px;
+}
+
+.myActivity:hover #imgActivity{
+    background-image: url(../img/myactivity1.png);
+}
+
+.buttonNew:hover #imgFeed{
+    background-image: url(../img/feedback1.png);
+}
+
+.myActivity:hover #imgBook{
+    background-image: url(../img/book1.png);
+}
+
+.carosello {
+    height: 60%;
+} 
+
+@media (max-width:800px) {
+    .containButton{
+        height: 16rem;
+    }
+  }

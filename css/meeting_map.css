@@ -1,0 +1,39 @@
+.title{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.container{
+    margin-top: 25px;
+    color: #505e6c;
+    box-shadow: solid 5px;
+}
+
+.container form h4 {
+    font-size:35px;
+    line-height:1.5;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+.container #maprow{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.container #button_map{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.container #map_submit{
+    width: 500px;
+}
+
+
+.container #mymap {
+    height: 400px;
+    width: 100%;
+    cursor:pointer;
+}
+

@@ -1,0 +1,33 @@
+h1, h2 {
+    text-align: center;
+    color: #505e6c;
+}
+
+h5 {
+    color: #505e6c;
+}
+
+.imgfooter {
+    padding: 15px;
+    width: 150px;
+}
+
+.footer {
+    height: 15%;
+    background-color: #B7B7B7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    font-size: 12;
+}
+
+.infbg {
+    border-radius: 8px ;
+    width: 650px;
+}
+
+.row{
+    margin-right:0;
+}
